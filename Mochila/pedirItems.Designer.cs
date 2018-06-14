@@ -88,6 +88,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAdd);
             this.Name = "pedirItems";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "pedirItems";
             this.ResumeLayout(false);
             this.PerformLayout();

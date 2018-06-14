@@ -19,10 +19,21 @@ namespace Mochila
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Form1.val1 = Convert.ToInt32(tbPeso.Text);
-            Form1.val2 = Convert.ToInt32(tbGanancia.Text);
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            try
+            {
+                Form1.val1 = Convert.ToInt32(tbPeso.Text);
+                Form1.val2 = Convert.ToInt32(tbGanancia.Text);
+                tbGanancia.Text = "";
+                tbPeso.Text = "";
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                //tbGanancia.Text = "";
+                //tbPeso.Text = "";
+                MessageBox.Show(ex.Message);
+            }
         }
         
     }

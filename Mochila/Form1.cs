@@ -51,13 +51,17 @@ namespace Mochila
         private void btnAdditems_Click(object sender, EventArgs e)
         {
             pedirItems pei = new pedirItems();
-            if (pei.ShowDialog()==DialogResult.OK)
-            {
-                agregar(val1, val2);
+            for (int i = 0; i < Convert.ToInt32(tbItems.Text); i++)
+            {               
+                if (pei.ShowDialog() == DialogResult.OK)
+                {
+                    agregar(val1, val2);
+                }
+                else
+                {
+                    i--;
+                }
             }
-            
-           
-
         }
         public void agregar(double p, double g)
         {
