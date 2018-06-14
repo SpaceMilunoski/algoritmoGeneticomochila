@@ -1,0 +1,11 @@
+c:\users\juan daniel\source\repos\Mochila\Mochila\bin\Debug\Mochila.exe.config
+c:\users\juan daniel\source\repos\Mochila\Mochila\bin\Debug\Mochila.exe
+c:\users\juan daniel\source\repos\Mochila\Mochila\bin\Debug\Mochila.pdb
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.csprojResolveAssemblyReference.cache
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.Form1.resources
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.Properties.Resources.resources
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.csproj.GenerateResource.cache
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.csproj.CoreCompileInputs.cache
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.exe
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.pdb
+c:\users\juan daniel\source\repos\Mochila\Mochila\obj\Debug\Mochila.pedirItems.resources
